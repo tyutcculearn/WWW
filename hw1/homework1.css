@@ -1,0 +1,550 @@
+#nav
+{
+	background-color: #3C3C3C;
+	height: 10%;
+	font-family: Cursive;
+}
+#nav li
+{
+	display: inline;
+}
+#nav a
+{
+	color: white;
+	text-decoration: none;
+}
+#nav img
+{
+	position: relative;
+	top: 4px;
+}
+#nav #name
+{
+	color:white;
+	position: relative;
+	top:8px;
+}
+#nav #name:hover
+{
+	color: red;
+}
+#nav #about
+{
+	position: relative;
+	left: 72%;
+	top: 8px;
+}
+#nav #contact
+{
+	position: relative;
+	left: 75%;
+	top:8px;
+}
+#main
+{
+	float: left;
+	width: 1024px;
+	clear:right;
+	/*border: 1px solid red;*/
+}
+#block_left
+{
+	float: left;
+	/*border: 1px solid green;*/
+	margin-top: 30px;
+	width: 250px;
+}
+div p
+{
+	font-family: Cursive;
+	text-indent: 10%;
+	font-size: 20px;
+	color: white;
+}
+#block1
+{
+	float: left;
+	/*border:1px solid red;*/
+	margin-left: 20px;
+	/*background-color: #BF0060;*/
+	width: 210px; 
+	height:70px;
+}
+#block11
+{
+	float: left;
+	background-color: #BF0060;
+	width: 200px;
+	height:70px;
+}
+#color1
+{
+	float: left;
+	/*border: 1px solid green;*/
+	background-color: #FF0080;
+	width: 10px;
+	height:70px;
+}
+.small_block1
+{
+	float: left;
+	margin-left: 20px;
+	/*border:1px solid #F0F0F0;*/ 
+	/*background-color: #F0F0F0;*/
+	width: 210px; 
+	height:50px;
+}
+.small_block11
+{
+	float: left;
+	background-color: #F0F0F0;
+	width: 200px;
+	height:50px;
+}
+.small_block11 p
+{
+	color: #FF0080;
+}
+.color11
+{
+	float: left;
+	/*border: 1px solid green;*/
+	background-color: #FF0080;
+	width: 10px;
+	height:50px;
+}
+.small_block1:hover
+{
+	/*transform: rotate(340deg);*/
+	/*transform:skew(30deg,0deg);*/
+	margin-left:0px;
+	width: 240px;
+}
+.small_block11:hover
+{
+	width: 230px;
+	background-color: #BF0060;
+}
+.small_block11 p:hover
+{
+	color: white;
+}
+
+#block2
+{
+
+	float: left;
+	/*border:1px solid red;*/
+	margin-left: 20px;
+	/*background-color: #BF0060;*/
+	width: 210px; 
+	height:70px;
+}
+#block22
+{
+	float: left;
+	/*border:1px solid #8E8E8E;*/
+	background-color: #8E8E8E;
+	width: 200px; 
+	height:70px;
+}
+#color2
+{
+	float: left;
+	/*border: 1px solid green;*/
+	background-color: #ADADAD;
+	width: 10px;
+	height:70px;
+}
+.small_block2
+{
+	float: left;
+	margin-left: 20px;
+	/*border:1px solid #F0F0F0;*/ 
+	/*background-color: #F0F0F0;*/
+	width: 210px; 
+	height:50px;
+}
+.small_block22
+{
+	float: left;
+	background-color: #F0F0F0;
+	width: 200px;
+	height:50px;
+}
+.small_block22 p
+{
+	color: #ADADAD;
+}
+.color22
+{
+	float: left;
+	/*border: 1px solid green;*/
+	background-color: #ADADAD;
+	width: 10px;
+	height:50px;
+}
+.small_block2:hover
+{
+	/*transform: rotate(340deg);*/
+	/*transform:skew(30deg,0deg);*/
+	margin-left:0px;
+}
+.small_block22:hover
+{
+	background-color: #8E8E8E;
+}
+.small_block22 p:hover
+{
+	color: white;
+}
+
+#block3
+{
+
+	float: left;
+	/*border:1px solid red;*/
+	margin-left: 20px;
+	/*background-color: #BF0060;*/
+	width: 210px; 
+	height:70px;
+}
+#block33
+{
+	float: left;
+	/*border:1px solid #8E8E8E;*/
+	background-color: #FFD306;
+	width: 200px; 
+	height:70px;
+}
+#color3
+{
+	float: left;
+	/*border: 1px solid green;*/
+	background-color: #FF9224;
+	width: 10px;
+	height:70px;
+}
+.small_block3
+{
+	float: left;
+	margin-left: 20px;
+	/*border:1px solid #F0F0F0;*/ 
+	/*background-color: #F0F0F0;*/
+	width: 210px; 
+	height:50px;
+}
+.small_block33
+{
+	float: left;
+	background-color: #F0F0F0;
+	width: 200px;
+	height:50px;
+}
+.small_block33 p
+{
+	color: #FF9224;
+}
+.color33
+{
+	float: left;
+	/*border: 1px solid green;*/
+	background-color: #FF9224;
+	width: 10px;
+	height:50px;
+}
+.small_block3:hover
+{
+	transform: rotate(350deg);
+	-ms-transform:rotate(350deg); /* Internet Explorer */
+	-moz-transform:rotate(350deg); /* Firefox */
+	-webkit-transform:rotate(350deg); /* Safari 和 Chrome */
+	-o-transform:rotate(350deg); /* Opera */
+	/*transform:skew(30deg,0deg);*/
+	/*margin-left:0px;*/
+}
+.small_block33:hover
+{
+	background-color: #FFD306;
+}
+.small_block33 p:hover
+{
+	color: white;
+}
+
+#block4
+{
+
+	float: left;
+	/*border:1px solid red;*/
+	margin-left: 20px;
+	/*background-color: #BF0060;*/
+	width: 210px; 
+	height:70px;
+}
+#block44
+{
+	float: left;
+	/*border:1px solid #8E8E8E;*/
+	background-color: #00FFFF;
+	width: 200px; 
+	height:70px;
+}
+#color4
+{
+	float: left;
+	/*border: 1px solid green;*/
+	background-color: #00CACA;
+	width: 10px;
+	height:70px;
+}
+.small_block4
+{
+	float: left;
+	margin-left: 20px;
+	/*border:1px solid #F0F0F0;*/ 
+	/*background-color: #F0F0F0;*/
+	width: 210px; 
+	height:50px;
+}
+.small_block44
+{
+	float: left;
+	background-color: #F0F0F0;
+	width: 200px;
+	height:50px;
+}
+.small_block44 p
+{
+	color: #00CACA;
+}
+.color44
+{
+	float: left;
+	/*border: 1px solid green;*/
+	background-color: #00CACA;
+	width: 10px;
+	height:50px;
+}
+.small_block4:hover
+{
+	/*transform: rotate(340deg);*/
+	transform:skew(30deg,0deg);
+	-ms-transform:skew(30deg,0deg); /* IE 9 */
+	-moz-transform:skew(30deg,0deg); /* Firefox */
+	-webkit-transform:skew(30deg,0deg); /* Safari and Chrome */
+	-o-transform:skew(30deg,0deg); /* Opera */
+	margin-left:6px;
+}
+.small_block44:hover
+{
+	background-color: #00FFFF;
+}
+.small_block44 p:hover
+{
+	color: white;
+}
+
+#pic
+{
+	margin-top: 30px;
+	border: 1px solid green;
+	float: left;
+	width: 460px;
+	height: 300px;
+}
+#pic1
+{
+	float: left;
+	width: 230px;
+	height: 150px;
+	overflow: hidden;
+}
+#pic2
+{
+	float: left;
+	width: 230px;
+	height: 150px;
+	overflow: hidden;
+}
+#pic3
+{
+	float: left;
+	width: 230px;
+	height: 150px;
+	overflow: hidden;
+}
+#pic4
+{
+	float: left;
+	width: 230px;
+	height: 150px;
+	overflow: hidden;
+}
+.image
+{
+	transition:transform 1000ms ease-in-out; 
+	-webkit-animation:transform 1000ms ease-in-out;
+	-moz-animation:transform 1000ms ease-in-out;
+	-ms-animation:transform 1000ms ease-in-out;
+	-o-animation:transform 1000ms ease-in-out; 
+}
+.image:hover
+{
+	-webkit-transform:translate(0,-150px);
+}
+
+#info
+{
+	margin-top: 30px;
+	float: left;
+	/*border: 1px solid red;*/
+	width: 600px;
+}
+#bigname
+{
+	float: left;
+	/*border: 1px solid green;*/
+	width: 200px;
+	margin-left: 30%;
+}
+#bigname p
+{
+	color: blue;
+	text-shadow:0px 7px #ADADAD;
+}
+#bigname:hover
+{
+	margin-left: 28%;
+}
+#bigname:hover p
+{
+	color:green;
+	font-size: 24px;
+}
+#table_info
+{
+	float: left;
+	clear: left;
+	border: 5px solid green;
+	background-color: pink;
+	margin-top: 20px;
+	margin-left: 20%;
+	box-shadow: 4px 4px #ADADAD;
+}
+#table_info td
+{
+	width: 155px;
+	height: 25px;
+	text-align: center;
+}
+.first:hover
+{
+	background-color: #00FFFF; 
+}
+.second:hover
+{
+	background-color: #FFDC35;
+	font-size: 24px; 
+}
+#facebook
+{
+	float: left;
+	clear: left;
+	margin-left: 40%;
+	margin-top: 30px;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari 和 Chrome */
+	-o-transition: all 1s;
+}
+#facebook a img
+{
+	width: 60px;
+	height: 60px;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari 和 Chrome */
+	-o-transition: all 1s;
+}
+#twitter
+{
+	float: left;
+	clear: left;
+	margin-left: 40%;
+	margin-top: 30px;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari 和 Chrome */
+	-o-transition: all 1s;
+}
+#twitter a img
+{
+	width: 60px;
+	height: 60px;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari 和 Chrome */
+	-o-transition: all 1s;
+}
+#linkin
+{
+	float: left;
+	clear: left;
+	margin-left: 40%;
+	margin-top: 30px;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari 和 Chrome */
+	-o-transition: all 1s;
+}
+#linkin a img
+{
+	width: 60px;
+	height: 60px;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari 和 Chrome */
+	-o-transition: all 1s;
+}
+#facebook:hover
+{
+	margin-left: 35%;
+	border: 4px solid #FFD306;
+}
+#facebook:hover img
+{
+	height: 150px;
+	width: 150px;
+}
+#twitter:hover
+{
+	margin-left: 20%;
+	border: 4px solid red;
+}
+#twitter:hover img
+{
+	width: 300px;
+}
+#linkin:hover
+{
+	margin-left: 35%;
+	border: 4px solid red;
+}
+#linkin:hover img
+{
+	transform: rotate(180deg);
+	height: 150px;
+	width: 150px;
+}
+
+#foot
+{
+	float: left;
+	clear: left;
+	width: 1024px;
+	/*border: 1px solid red;*/
+	text-indent: 35%;
+	font-family: Cursive;
+	background-color:#F0F0F0; 
+}
